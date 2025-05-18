@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pequeñam</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="Betubina_rawr.ico">
     <style>
         body {
@@ -42,24 +42,33 @@
             <img src="img/Betubina.png" alt="Betubina" style="height: 110px;">
         </div>
         <nav>
-            <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 1rem;">
-                <li><a href="#inicio" style="color: #fff; text-decoration: none;">Inicio</a></li>
-                <li><a href="#sobre" style="color: #fff; text-decoration: none;">Sobre el Proyecto</a></li>
-                <li><a href="#contacto" style="color: #fff; text-decoration: none;">Contacto</a></li>
+            <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 1rem; position: fixed; top: 0; left: 0; width: 100%; background: #DD3F00; z-index: 1000;">
+                <li><a href="#inicio" style="color: #fff; text-decoration: none; padding: 1rem; display: block;" onclick="scrollToTop()">Inicio</a></li>
+                <li><a href="#proyecto" style="color: #fff; text-decoration: none; padding: 1rem; display: block;">Sobre el Proyecto</a></li>
+                <li><a href="#contacto" style="color: #fff; text-decoration: none; padding: 1rem; display: block;">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h3 id=" El problema"> El problema 🚨</h3>
-            <p> En la Huasteca Potosina, los niños enfrentan mala nutrición por falta de opciones saludables y accesibles.</p>
-        
+            <p>En México, el 35.6% de los niños en edad escolar presentan sobrepeso u obesidad (ENSANUT, 2021).</p>
+            <p> En regiones como la Huasteca Potosina, factores económicos y de acceso dificultan una buena alimentación.</p>
+        <br>
+
+        <h3 id="quien">¿Quiénes somos? 👩‍👧‍👦</h3>
+        <div style="background-image: url('img/haciendo\ chips\ 2.jpg'); background-size: cover; background-position: center; padding: 2rem; border-radius: 5px; color: #fff; font-size: 1.2rem; text-shadow: 2px 2px 4px #000; height: 300px;">
+            <p> Somos un grupo de estudiantes del Teconologico Nacial de Mexico campus Cd.Valles, comprometidos con la salud y bienestar de los niños de nuestra comunidad.</p>
+            <p> Queremos ofrecer alternativas saludables y accesibles para mejorar la alimentación infantil.</p>
+        </div>
+
         <h3 id="solucion">🌈 Nuestra solución</h3>
-            <p>
+        <div style="background-image: url('img/gomitas\ 1.jpg'); background-size: cover; background-position: center; padding: 2rem; border-radius: 5px; color: #fff; font-size: 1.2rem; text-shadow: 2px 2px 4px #000; height: 300px;">
             🍬 Snacks de betabel y zanahoria <br>
             🧃 Gomitas con jugo natural <br>
             🍠 Chips horneadas con semillitas <br>
             🎯 Sabrosos, naturales y económicos <br>
             </p>
+        </div>
 
         <h3 id="proyecto">💡 El proyecto</h3>
             <p> Pequeñam es un proyecto que busca ofrecer opciones de snacks saludables y accesibles para los niños de la Huasteca Potosina. Con el apoyo de la comunidad, queremos crear un cambio positivo en la alimentación infantil.</p>
